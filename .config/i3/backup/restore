@@ -1,0 +1,7 @@
+#!/bin/bash
+
+i3-msg 'workspace 1; append_layout /home/shinjaehun/.config/i3/workspace-1.json'
+
+(gnome-terminal --role gnome-terminal-window-5408a70a-3650-4892-98eb-86bae14b3544 &)
+(gnome-terminal --role gnome-terminal-window-75f13fc0-14bb-43e0-accc-d2184d76f517 &)
+(google-chrome &)

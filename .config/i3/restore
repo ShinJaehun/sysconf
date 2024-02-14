@@ -1,0 +1,6 @@
+#!/bin/bash
+
+i3-msg 'workspace 1; append_layout /home/shinjaehun/.config/i3/workspace-1.json'
+
+(/usr/bin/python3 /usr/bin/terminator &)
+(/usr/bin/python3 /usr/bin/terminator &)

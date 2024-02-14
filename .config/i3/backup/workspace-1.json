@@ -1,0 +1,73 @@
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "tabbed",
+    "percent": null,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 437,
+               "width": 734,
+               "x": 0,
+               "y": 0
+            },
+            "percent": 0.333333333333333,
+            "swallows": [
+               {
+                "class": "^Gnome\\-terminal$",
+                "instance": "^gnome\\-terminal\\-server$",
+                "transient_for": "^$",
+                "window_role": "^gnome\\-terminal\\-window\\-5408a70a\\-3650\\-4892\\-98eb\\-86bae14b3544$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 437,
+               "width": 734,
+               "x": 0,
+               "y": 0
+            },
+            "percent": 0.333333333333333,
+            "swallows": [
+               {
+                "class": "^Gnome\\-terminal$",
+                "instance": "^gnome\\-terminal\\-server$",
+                "transient_for": "^$",
+                "window_role": "^gnome\\-terminal\\-window\\-75f13fc0\\-14bb\\-43e0\\-accc\\-d2184d76f517$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 731,
+               "width": 1276,
+               "x": 2,
+               "y": 44
+            },
+            "percent": 0.333333333333333,
+            "swallows": [
+               {
+                "class": "^Google\\-chrome$",
+                "instance": "^google\\-chrome$",
+                "transient_for": "^$",
+                "window_role": "^browser$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
