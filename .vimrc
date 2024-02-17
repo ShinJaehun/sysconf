@@ -104,6 +104,7 @@ autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in
 let NERDTreeQuitOnOpen = 0
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
+let NERDTreeNodeDelimiter = "\t"
 " Ignore some folders and files for CtrlP indexing
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.yardoc\|node_modules\|log\|tmp$',
